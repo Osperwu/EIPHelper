@@ -1,0 +1,18 @@
+<myConfig>
+<!--帳號 -->
+    <id>osper.wu@1177tech.com.tw</id>
+<!--密碼 -->
+    <pwd>Aa123456</pwd>
+<!--登入網址 -->
+    <url>https://eipdev.1177tech.com.tw/EipConnect/web/#/login</url>
+<!--chrome驅動(需對應chrome版本)，在chrome輸入此網址做查詢chrome://version/ -->
+    <driver>/EIPHelper/chromedriver.exe</driver>
+<!--line token ，教學網站:https://hackmd.io/@sideex/line-notify-zh-->
+    <token>GUfngH9605YHPxFFiCkOvwKMUhIs5UL7LD7ezDZjCWO</token>
+<!--智慧庫 -->    
+    <dataPath>/EIPHelper</dataPath>
+<!--打開CMD 切換到該目錄並執行指令； java -jar EIPHelper-0.0.1.jar -->
+<!--///////////////////////////////////////////////////////////////-->
+<!--API 環境 DEV:d、SIT:s、正式:f--> 
+    <environment>d</environment>
+</myConfig>
